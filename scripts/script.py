@@ -1,5 +1,6 @@
+from pathlib import Path
 import sys
-sys.path.append('../example_package')
+sys.path.append(str(Path(__file__).parent.parent))
 
 
 print('This is a script')
